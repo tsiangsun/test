@@ -1,0 +1,9 @@
+#Leave space before and after =
+eps = 0
+Gamma_DA = 0.4
+beta = 12.5
+zeta = 0.09
+Ntraj = 50000
+LEN_TRAJ = 200
+DT = 0.02
+
