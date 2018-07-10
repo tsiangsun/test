@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-inline int positive_modulo(int i, int n);
+inline int positive_modulo(int i, int n) {
+    return (i % n + n) % n;
+}
 
 int main (int argc, char *argv[]) {
     int a = 5;
@@ -15,6 +17,4 @@ int main (int argc, char *argv[]) {
     return (0);
 }
 
-inline int positive_modulo(int i, int n) {
-    return (i % n + n) % n;
-}
+
